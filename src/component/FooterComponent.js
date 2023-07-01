@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const FooterComponent = () => {
-    return (
-        <div>
-            <footer className='footer bg-dark'>
-                <span>All Right Reserved Chelly Izraelov&copy; {new Date().getFullYear()}</span>
-            </footer>
-        </div>
-    )
-}
+  return (
+    <div>
+      <footer className="footer bg-dark">
+        <span>
+          All Right Reserved Chelly Izraelov&copy; {new Date().getFullYear()}
+        </span>
+      </footer>
+    </div>
+  );
+};
 
-export default FooterComponent
+export default FooterComponent;
